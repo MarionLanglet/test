@@ -6,4 +6,4 @@ files:
 hooks:
   AfterInstall:
    - location: ./test.sh
-     runas: root
+     timeout: 300

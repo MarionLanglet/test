@@ -11,6 +11,6 @@ permissions:
     mode: 777
 hooks:
   AfterInstall:
-   - location: ./test.sh
+   - location: /var/www/cheese_namam/test.sh
      timeout: 300
      runas: ubuntu

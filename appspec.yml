@@ -3,6 +3,12 @@ os: linux
 files:
  - source: .
    destination: /var/www/cheese_namam
+permissions:
+  - object: /var/www/cheese_namam/test.sh
+    pattern: "**"
+    owner: ubuntu
+    group: ubuntu
+    mode: 777
 hooks:
   AfterInstall:
    - location: ./test.sh

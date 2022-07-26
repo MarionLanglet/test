@@ -1,2 +1,2 @@
 #!/bin/bash
-touch ok.txt
+touch /var/www/cheese_namam/ok.txt

@@ -1,0 +1,10 @@
+version: 0.0
+os: ubuntu
+files:
+ - source: .
+   destination: /var/www/cheese_namam
+hooks:
+  AfterInstall:
+   - location: /var/www/cheese_namam/test.sh
+     timeout: 300
+     runas: root

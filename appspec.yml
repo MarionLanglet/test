@@ -13,3 +13,4 @@ hooks:
   AfterInstall:
    - location: ./test.sh
      timeout: 300
+     runas: ubuntu
